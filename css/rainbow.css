@@ -1,0 +1,84 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.top-title{
+    height: 1%;
+}
+
+div.bg-image{
+    height: 83%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/photo.jpg");
+}
+
+ul{
+    list-style-type: none;
+}
+
+.font{
+    font-size: 14pt;
+}
+
+.contact-error{
+    border: 1px solid red;
+
+}
+
+.contact-black{
+    border: 1px solid black;
+
+}
+
+div.circle{
+    background-color: #b8b8c0;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: none;
+}
+
+.size{
+    font-size: 14pt;
+}
+.img-size{
+    width: 80px;
+}
+
+
+div.form{
+    background: rgba(150,150,150,0.5);
+    border-radius: 10px;
+}
+
+.title-form{
+    font-size: 15pt;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b8b8c0;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b8b8c0;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b8b8c0;
+}
+
+
+@media (min-width:1px) and (max-width: 767px){ 
+
+
+}
+
+
+
